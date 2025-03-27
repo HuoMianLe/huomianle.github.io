@@ -1,4 +1,64 @@
+# 站点基本设置
 theme: jekyll-theme-minimal
 title: HuoMianLe's Blog
-description: Hi! 👋
-Welcome to my blog.
+description: |
+  Hi! 👋
+  Welcome to my blog.
+  This is my blog where I will share bits and pieces of programming, technology and life.
+
+# 作者信息
+#author:
+  #name: HuoMianLe
+  #email: your-email@example.com
+  #github: your-github-username
+
+# 网站设置
+url: "https://huomianle.github.io"
+#baseurl: ""
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+highlighter: rouge
+
+# 社交媒体链接
+social_links:
+  github: HuoMianLe
+  #twitter: your-twitter-handle
+  #linkedin: your-linkedin-profile
+
+# 导航菜单
+navigation:
+  - title: 首页
+    url: /
+  - title: 关于
+    url: /about/
+  - title: 文章
+    url: /posts/
+  - title: 项目
+    url: /projects/
+
+# Google Analytics
+#google_analytics: UA-XXXXXXXXX-X
+
+# 分页设置
+paginate: 5
+paginate_path: "/page:num/"
+
+# Disqus评论系统
+#disqus:
+  #shortname: your-disqus-shortnam
+
+# 插件
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# 排除的文件和文件夹
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+  - README.md
