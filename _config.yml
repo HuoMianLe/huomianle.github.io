@@ -14,7 +14,7 @@ description: |
 
 # 网站设置
 url: "https://huomianle.github.io"
-#baseurl: ""
+baseurl: "https://huomianle.github.io"
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
 highlighter: rouge
