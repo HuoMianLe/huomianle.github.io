@@ -4,21 +4,13 @@ description: >-
   Hi! 👋
   Welcome to my blog.
 
-author:
-  name: HuoMianLe
-  github: HuoMianLe
-
 url: "https://huomianle.github.io"
-baseurl: ""
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
 highlighter: rouge
 
 social_links:
   github: HuoMianLe
-
-header_pages:
-  - code.md
 
 paginate: 5
 paginate_path: "/page:num/"
@@ -29,12 +21,5 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-include:
-  - src
-
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
   - .gitignore
