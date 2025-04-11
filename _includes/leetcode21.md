@@ -1,6 +1,7 @@
 ### 题目要求
 合并两个有序链表，并以新链表形式返回。
-[题目连接](https://leetcode.cn/problems/merge-two-sorted-lists/description/)
+
+[题目链接](https://leetcode.cn/problems/merge-two-sorted-lists/description/)
 
 
 ### C++代码
