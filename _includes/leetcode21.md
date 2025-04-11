@@ -1,13 +1,3 @@
----
-layout: leetcode
-title: "力扣第21题：合并两个有序链表"
-date: 2023-01-01
-categories: leetcode
-tags: [链表, 递归, 简单]
----
-
-[toc]
-
 ### 题目要求
 
 按照升序顺序合并两个递增链表

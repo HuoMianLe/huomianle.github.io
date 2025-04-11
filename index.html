@@ -9,32 +9,22 @@ title: 首页
     <p>持续更新包括来自LeetCode的数据结构题</p>
 
     <div class="leetcode-solution">
-        <h2>LeetCode-T21</h2>
-        {% capture markdown_content %}{% include leetcode21.md %}{% endcapture %}
-        {{ markdown_content | markdownify }}
+        <h2><a href="{{ '/leetcode/21/' | relative_url }}">LeetCode-T21-合并两个有序链表</a></h2>
+        <p class="summary">合并两个有序链表，并以新链表形式返回。</p>
+        <a href="{{ '/leetcode/21/' | relative_url }}" class="read-more">完整题解 &raquo;</a>
     </div>
 </div>
 
 <style>
-    .leetcode-solution {
-        margin-bottom: 3rem;
-        padding: 1.5rem;
-        border: 1px solid #e1e4e8;
-        border-radius: 6px;
-        background-color: #f8f9fa;
+    .summary {
+        margin: 1rem 0;
+        color: #555;
     }
 
-    .leetcode-solution pre {
-        padding: 1rem;
-        overflow-x: auto;
-        background-color: #f6f8fa;
-        border-radius: 4px;
-    }
-
-    .leetcode-solution h2 {
-        margin-top: 0;
-        padding-bottom: 0.5rem;
-        border-bottom: 1px solid #eaecef;
+    .read-more {
+        display: inline-block;
+        margin-top: 0.5rem;
+        font-weight: 500;
     }
 
     body {
