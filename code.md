@@ -8,22 +8,24 @@ permalink: /code/
 
 以下是代码库中的内容：
 
-{% assign code_files = site.static_files | where_exp: "file", "file.path contains '/src/'" %}
-{% for file in code_files %}
-### {{ file.path | remove: "/src/" }}
+{% for file in site.static_files %}
+{% if file.path contains '/src/' %}
 
-{% if file.path contains '.cpp' %}
+### {{ file.name }}
+
+{% if file.extname == '.cpp' %}
 ```cpp
-{% include_relative {{ file.path }} %}
+{% include_relative src/{{ file.name }} %}
 ```
 {% endif %}
 
-{% if file.path contains '.py' %}
+{% if file.extname == '.py' %}
 ```python
-{% include_relative {{ file.path }} %}
+{% include_relative src/{{ file.name }} %}
 ```
 {% endif %}
 
+{% endif %}
 {% endfor %}
 
 <style>
