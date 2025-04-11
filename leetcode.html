@@ -1,0 +1,46 @@
+---
+layout: default
+title: LeetCode-T21-合并两个有序链表
+permalink: /leetcode/21/
+---
+
+<div class="leetcode-page">
+    <h1>{{ page.title }}</h1>
+    <div class="leetcode-content">
+        {% capture markdown_content %}{% include leetcode21.md %}{% endcapture %}
+        {{ markdown_content | markdownify }}
+    </div>
+
+    <div class="back-link">
+        <a href="{{ '/' | relative_url }}">&larr; 返回首页</a>
+    </div>
+</div>
+
+<style>
+    .leetcode-page {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .leetcode-content {
+        margin-top: 2rem;
+        padding: 1.5rem;
+        border: 1px solid #e1e4e8;
+        border-radius: 6px;
+        background-color: #f8f9fa;
+    }
+
+    .back-link {
+        margin-top: 2rem;
+        padding-top: 1rem;
+        border-top: 1px solid #eaecef;
+    }
+
+    pre {
+        padding: 1rem;
+        overflow-x: auto;
+        background-color: #f6f8fa;
+        border-radius: 4px;
+    }
+</style>
