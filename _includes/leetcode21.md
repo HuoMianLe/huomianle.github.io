@@ -1,16 +1,10 @@
 ### 题目要求
-
-按照升序顺序合并两个递增链表
-
+合并两个有序链表，并以新链表形式返回。
 [题目连接](https://leetcode.cn/problems/merge-two-sorted-lists/description/)
 
 
-
 ### C++代码
-
 ```c++
-// t21: Merge Two Sorted Linked Lists
-
 #include <iostream>
 
 struct ListNode {
@@ -72,9 +66,7 @@ int main() {
 ```
 
 
-
 ### Python代码
-
 ```python
 class ListNode:
     def __init__(self, val=-1, next=None):
@@ -131,4 +123,3 @@ if __name__ == "__main__":
     linkList.print_list(merged_list)
 
 ```
-
